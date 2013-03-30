@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    columnize (0.3.6)
+    debugger (1.5.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.0)
+    diff-lcs (1.2.1)
+    excon (0.20.1)
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    multi_json (1.7.2)
+    multipart-post (1.2.0)
+    oj (2.0.10)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger (~> 1.5.0)
+  excon
+  faraday (~> 0.8.7)
+  multi_json (~> 1.7.2)
+  oj (~> 2.0.10)
+  rspec (~> 2.13.0)
